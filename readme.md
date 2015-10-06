@@ -24,23 +24,23 @@ Repository for the first week of Fall 2015 Spark iOS curriculum and assignments
 ### Section 2: Git and Github
 #### Required - Answer these questions in the _git.md_ file.
 
-- What is Git?
-- What is SCM?
-- What is a VCS?
-- Why is Git useful for a developer?
-- Why is Git useful for a team of developers?
-- How do you create a new Git repository for a project locally?
-- How do you create it on Github?
-- How do you commit changes?
-- What is the difference between staging and committing changes?
-- What is the difference between committing your changes and pushing them to Github?
-- What is the command to check the status of your current repo in git?
-- What is the command to see the history of your previous commits (from the command line)?  What are a few interesting variations (sets of options)?
-- How can you look through your historical commits on the Github website?
-- What is a "Merge"?
-- What is a "Pull Request"?
-- What is "Forking" a repo?
-- What is "Cloning" a repo?
+- What is Git? Git is a repository service used to host and share code. 
+- What is SCM? Software configuration managment is a version control tool to track all changes.  
+- What is a VCS? Version control software manages versions of anything. 
+- Why is Git useful for a developer? Git is useful for tracking changes, sharing code, and backing up code and a central location for all open source. 
+- Why is Git useful for a team of developers? You are able to push, pull, edit eachothers code and share it back. You are able to see exactly what they changed and if they did something wrong you can always go back to what was originally in place. 
+- How do you create a new Git repository for a project locally? git init
+- How do you create it on Github? click the plus button then "New Repository"
+- How do you commit changes? git commit -m "message!!!!" 
+- What is the difference between staging and committing changes? staging is preparing the conditions for committing your files (such as the different parts of the work you have done) and committing is adding changes to the local repsoitory  and saving changes 
+- What is the difference between committing your changes and pushing them to Github? committing is in local repository and pushing is to the github server 
+- What is the command to check the status of your current repo in git? git status 
+- What is the command to see the history of your previous commits (from the command line)?  What are a few interesting variations (sets of options)? git log lists all commits in repository, git log -p shows the different in each commit, git log --stat gives you a summarized version of each commit 
+- How can you look through your historical commits on the Github website? - go to the compare drop down and select the branch you want to commit 
+- What is a "Merge"? putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+- What is a "Pull Request"? provide a user-friendly web interface for discussing proposed changes before integrating them into the official project.
+- What is "Forking" a repo? allows you to freely experiment with changes without affecting the original project
+- What is "Cloning" a repo? getting a copy of an existing git repsoitory 
 
 #### Git Resources
 - [What is VCS?](http://www.youtube.com/watch?v=8oRjP8yj2Wo)
